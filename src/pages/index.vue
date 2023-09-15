@@ -1,6 +1,14 @@
 <script setup lang="ts">
 import type { Day } from '../types'
-const dayList = ref<Day[]>([])
+const dayList = ref<Day[]>([
+  { name: '星期一', dishName: '', ingredients: [] },
+  { name: '星期二', dishName: '', ingredients: [] },
+  { name: '星期三', dishName: '', ingredients: [] },
+  { name: '星期四', dishName: '', ingredients: [] },
+  { name: '星期五', dishName: '', ingredients: [] },
+  { name: '星期六', dishName: '', ingredients: [] },
+  { name: '星期日', dishName: '', ingredients: [] },
+])
 const addDay = () => {
   dayList.value.push({ name: '星期一', dishName: '番茄炒蛋', ingredients: [{ name: '番茄', id: 'xxxx', weight: 250, icon: '222' }, { name: '蛋', weight: 1, id: 'wwwwww', icon: '333333' }] })
 }
@@ -37,9 +45,9 @@ const calculate = () => {
       reset
     </button>
     <br>
-    <button @click="addDay">
+    <!-- <button @click="addDay">
       addDay
-    </button>
+    </button> -->
     <br>
     <div class="week-to-buy">
       {{ calculate() }}
