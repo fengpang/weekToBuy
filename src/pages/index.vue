@@ -44,6 +44,7 @@ const calculate = () => {
     <button @click="addDay">
       addDay
     </button>
+    <div class="i-fluent-emoji-flat-avocado" />
     <button @click="reset">
       reset
     </button>

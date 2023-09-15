@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.24.1
   '@iconify-json/carbon': ^1.1.5
-  '@iconify-json/fluent': ^1.1.35
+  '@iconify-json/fluent-emoji-flat': ^1.1.12
   '@intlify/vite-plugin-vue-i18n': ^4.0.0
   '@types/markdown-it-link-attributes': ^3.0.1
   '@types/nprogress': ^0.2.0
@@ -43,6 +43,7 @@ specifiers:
   vue-tsc: ^0.34.16
 
 dependencies:
+  '@iconify-json/fluent-emoji-flat': 1.1.12
   '@vueuse/core': 8.5.0_vue@3.2.36
   '@vueuse/head': 0.7.6_vue@3.2.36
   nprogress: 0.2.0
@@ -55,7 +56,6 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.24.1_xztl6dhthcahlo6akmb2bmjmle
   '@iconify-json/carbon': 1.1.5
-  '@iconify-json/fluent': 1.1.35
   '@intlify/vite-plugin-vue-i18n': 4.0.0_vite@2.9.9
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
@@ -1421,11 +1421,11 @@ packages:
       '@iconify/types': 1.1.0
     dev: true
 
-  /@iconify-json/fluent/1.1.35:
-    resolution: {integrity: sha512-WqrkFv/HtXjrsLfBBICYn6du2s9lPADvN3pO1evqLdEMgfEvaX1fd5x3RVakFeLeivIkKHVLrKAz8JwmfpSq4g==}
+  /@iconify-json/fluent-emoji-flat/1.1.12:
+    resolution: {integrity: sha512-uycWBxIs0ZTAz3v0srig0Gke+4TUoalxWyxOu/jXeBdYsmTmeeH+FF/JhvD628aE6ixN2Zght2V5lXpAQm1J5w==}
     dependencies:
-      '@iconify/types': 1.1.0
-    dev: true
+      '@iconify/types': 2.0.0
+    dev: false
 
   /@iconify/types/1.1.0:
     resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==}
@@ -1433,7 +1433,6 @@ packages:
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: true
 
   /@iconify/utils/1.0.32:
     resolution: {integrity: sha512-m+rnw7qKHq/XF7DAi4BcFoEAcXBfqqMgQJh8brGEHeqE/RUvgDMjmxsHgWnVpFsG+VmjGyAiI7nwXdliCwEU0Q==}
