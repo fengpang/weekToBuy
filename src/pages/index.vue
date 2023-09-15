@@ -41,6 +41,9 @@ const calculate = () => {
       <input v-model="day.dishName" type="text">
       <div v-for="ingredient in day.ingredients" :key="ingredient.id" class="ingredients" />
     </div>
+    <button @click="addDay">
+      addDay
+    </button>
     <button @click="reset">
       reset
     </button>
